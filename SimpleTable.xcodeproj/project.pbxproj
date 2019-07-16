@@ -14,6 +14,7 @@
 		D432E1DE22DD5484008C0F02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D432E1DC22DD5484008C0F02 /* LaunchScreen.storyboard */; };
 		D432E1E922DD5484008C0F02 /* SimpleTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D432E1E822DD5484008C0F02 /* SimpleTableTests.swift */; };
 		D432E1F422DD5484008C0F02 /* SimpleTableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D432E1F322DD5484008C0F02 /* SimpleTableUITests.swift */; };
+		D432E20222DDFDB6008C0F02 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D432E20122DDFDB6008C0F02 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D432E1EF22DD5484008C0F02 /* SimpleTableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D432E1F322DD5484008C0F02 /* SimpleTableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableUITests.swift; sourceTree = "<group>"; };
 		D432E1F522DD5484008C0F02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D432E20122DDFDB6008C0F02 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				D432E1D322DD5483008C0F02 /* AppDelegate.swift */,
 				D432E1D522DD5483008C0F02 /* ViewController.swift */,
+				D432E20122DDFDB6008C0F02 /* CustomTableViewCell.swift */,
 				D432E1D722DD5483008C0F02 /* Main.storyboard */,
 				D432E1DA22DD5484008C0F02 /* Assets.xcassets */,
 				D432E1DC22DD5484008C0F02 /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D432E20222DDFDB6008C0F02 /* CustomTableViewCell.swift in Sources */,
 				D432E1D622DD5483008C0F02 /* ViewController.swift in Sources */,
 				D432E1D422DD5483008C0F02 /* AppDelegate.swift in Sources */,
 			);
